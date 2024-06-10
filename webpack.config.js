@@ -1,15 +1,15 @@
 module.exports = {
   "output": {
-    "filename": "index.pack.js"
+    "filename": ".pack.js"
   },
   "entry": {
     "index": "./index.ts"
   },
   "resolve": {
     "extensions": [
-      "index.ts",
-      "webpack.config.js",
-      "package.json"
+      ".ts",
+      ".config.js",
+      ".json"
     ]
   },
   "module": {
