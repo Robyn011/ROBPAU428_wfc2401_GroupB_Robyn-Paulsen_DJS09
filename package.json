@@ -9,5 +9,9 @@
   "scripts": {
     "build": "webpack",
     "watch": "webpack -w"
+  },
+  "dependencies": {
+    "tsc": "^2.0.4",
+    "vite": "^5.2.13"
   }
 }
